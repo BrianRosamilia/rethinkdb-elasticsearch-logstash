@@ -12,6 +12,10 @@ An example base vagrant box that indexes RethinkDB documents with Elasticsearch 
 
 ## Example
 
+Download this repository as a Zip file.
+
+`C:\rethinkdb-elasticsearch-logstash\>` `vagrant up`
+
 Insert a record via the admin UI (http://localhost:8081/#dataexplorer)
 
 `r.db('test').table('articles').insert({ subject : 'GeoJSON and MongoDB', body : 'test body' });`
