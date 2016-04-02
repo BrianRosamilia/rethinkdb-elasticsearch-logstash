@@ -12,9 +12,9 @@ An example base vagrant box that indexes RethinkDB documents with Elasticsearch 
 
 ## Example
 
-Inserting a record via the admin UI (http://localhost:8081/#dataexplorer)
+Insert a record via the admin UI (http://localhost:8081/#dataexplorer)
 
-r.db('test').table('articles').insert({ subject : 'GeoJSON and MongoDB', body : 'test body' });
+`r.db('test').table('articles').insert({ subject : 'GeoJSON and MongoDB', body : 'test body' });`
 
 Then navigate to 
 
