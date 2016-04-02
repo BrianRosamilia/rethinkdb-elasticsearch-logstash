@@ -4,7 +4,7 @@ An example base vagrant box that indexes RethinkDB documents with Elasticsearch 
 
 'vagrant up' will provision the following :
 
-* [cAdvisor](https://github.com/google/cadvisor)
+* [cAdvisor](https://github.com/google/cadvisor) admin UI on 8080
 * [RethinkDB](https://www.rethinkdb.com/) running on 28015/29015 with its admin UI on 8081
 * [Elasticsearch](https://www.elastic.co/products/elasticsearch) running on 9200
 * Creates table 'articles' in database 'test'.  
