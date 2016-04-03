@@ -24,4 +24,4 @@ Then navigate to
 
 http://localhost:9200/_search?q=mongodb
 
-You should see a response + relevance score!
+You should see a response + relevance score from Elasticsearch!
